@@ -12,6 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\Management\Management.Application\Management.Application.csproj" />
+    <ProjectReference Include="..\..\Management\Managment.Client\Management.Client.csproj" />
     <ProjectReference Include="..\ExcelAttend2.Application\ExcelAttend2.Application.csproj" />
   </ItemGroup>
 

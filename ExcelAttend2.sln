@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36511.14 d17.14
+VisualStudioVersion = 17.14.36511.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAttend2.Application", "ExcelAttend2.Application\ExcelAttend2.Application.csproj", "{EC168177-0B68-4787-921D-6735816AE38E}"
 EndProject
@@ -10,6 +10,16 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAttend2.Infrastructure", "ExcelAttend2.Infrastructure\ExcelAttend2.Infrastructure.csproj", "{4812981B-9B60-4AEC-B854-6FB9B8822160}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelAttend2.Client", "ExcelAttend2.Client\ExcelAttend2.Client.csproj", "{29E7E220-A6AE-43BB-BE4C-F74CFD689018}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Application", "..\Management\Management.Application\Management.Application.csproj", "{88A4F0F1-1BE7-8C08-DD15-22EC00821535}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Infrastructure", "..\Management\Management.Infrastructure\Management.Infrastructure.csproj", "{98230107-9E6C-1D6F-3E35-680852BAD428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Domain", "..\Management\ManagementDomain\Management.Domain.csproj", "{4B8FD8EF-FDCA-8958-BFE9-25515593579B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Management.Client", "..\Management\Managment.Client\Management.Client.csproj", "{D1D2B233-E151-B9B8-4431-808CD3CE759D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assend", "Assend", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +43,22 @@ Global
 		{29E7E220-A6AE-43BB-BE4C-F74CFD689018}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29E7E220-A6AE-43BB-BE4C-F74CFD689018}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29E7E220-A6AE-43BB-BE4C-F74CFD689018}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A4F0F1-1BE7-8C08-DD15-22EC00821535}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A4F0F1-1BE7-8C08-DD15-22EC00821535}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A4F0F1-1BE7-8C08-DD15-22EC00821535}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A4F0F1-1BE7-8C08-DD15-22EC00821535}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98230107-9E6C-1D6F-3E35-680852BAD428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98230107-9E6C-1D6F-3E35-680852BAD428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98230107-9E6C-1D6F-3E35-680852BAD428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98230107-9E6C-1D6F-3E35-680852BAD428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B8FD8EF-FDCA-8958-BFE9-25515593579B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8FD8EF-FDCA-8958-BFE9-25515593579B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8FD8EF-FDCA-8958-BFE9-25515593579B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8FD8EF-FDCA-8958-BFE9-25515593579B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D2B233-E151-B9B8-4431-808CD3CE759D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D2B233-E151-B9B8-4431-808CD3CE759D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D2B233-E151-B9B8-4431-808CD3CE759D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D2B233-E151-B9B8-4431-808CD3CE759D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
